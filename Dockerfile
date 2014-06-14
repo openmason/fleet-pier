@@ -27,6 +27,6 @@ RUN \
   apt-get install -yq \
     openssh-server \
      --no-install-recommends; \
-  pip install --upgrade circus circus-web; \
+  pip install --upgrade circus; \
   mkdir /var/run/sshd; \
   apt-get clean

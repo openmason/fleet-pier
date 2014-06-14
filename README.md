@@ -3,5 +3,5 @@ Base image with required dev and daemon utilities. Highly opinionated image, so 
 
  * nodejs
  * sshd
- * circus / circus-web
+ * circus 
 
